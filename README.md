@@ -15,13 +15,14 @@ Due to unexpected behaviour in Rosetta emulation, most versions of macOS 14 (inc
 
 ## How to install
 Expect the installation process to last about one to two hours and download ~20 GB for the web installer.
+About 30 minutes for the local installer (SFD).
 
 ### Preparations
 You first need to install [Docker®](https://www.docker.com/products/docker-desktop/) (make sure to choose "Apple Chip" instead of "Intel Chip"). You may find it useful to disable the option "Open Docker Dashboard when Docker Desktop starts".
 
 Rosetta must be installed on your Mac. The installer will ask you to install it if it is not already installed.
 
-You will also need the Vivado installer file (the "Linux® Self Extracting Web Installer").
+You will also need the Vivado installer file (the "Linux® Self Extracting Web Installer" or the "SFD").
 
 
 ### Installation
