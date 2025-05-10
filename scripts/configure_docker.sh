@@ -15,6 +15,8 @@ function cannot_setup_docker {
     exit 1
 }
 
+stop_docker
+
 # check for settings file
 if [ -f "$HOME/Library/Group Containers/group.com.docker/settings-store.json" ]
 then
@@ -26,8 +28,6 @@ else
     f_echo "Settings file not found."
     cannot_setup_docker
 fi
-
-stop_docker
 
 # check if the attributes to be modified exist
 if grep -i "\"UseVirtualizationFramework\":" "$docker_settings_file" > /dev/null \
